@@ -7,10 +7,10 @@ public class Cappuccino extends AbstractDrink{
 
     @Override
     protected void drink() {
-        name = "Coffee with milk";
+        name = "Cappuccino";
 
         super.price += ingredients.BLACK_COFFE.getId() + ingredients.MILK.getId();
-        System.out.println(name + "       " + ingredients.BLACK_COFFE + ", " +  ingredients.WATER +
+        System.out.println(name + "             " + ingredients.BLACK_COFFE + ", " +  ingredients.WATER +
                 ", " + ingredients.SUGAR + ", " + ingredients.MILK + "                " + price);
     }
 }

@@ -1,11 +1,13 @@
-package TankGame;
+package TankGame.ObjectsOnField;
+
+import TankGame.Tanks.Drawable;
 
 import java.awt.*;
 
 /**
  * Created by Byblik272 on 2/12/2015.
  */
-public abstract class AbstractObjectOnField implements Drawable{
+public abstract class AbstractObjectOnField implements Drawable {
 
     private int x;
     private int y;

@@ -43,14 +43,12 @@ public class ClassRoom {
     }
 
     public void isPresent(String name, String secondName) {
-        int idx = 0;
-        for(Student student : students) {
-            if(student.getName() == name && student.getSecondName() == secondName) {
-                System.out.println(name + " " + secondName + " is present");
-                idx++;
-                }
-            }
-        if(idx == 0) {
+
+        Student student = new Student(name, secondName);
+
+        if(students.contains(student)) {
+            System.out.println(name + " " + secondName + " is present");
+        } else {
             System.out.println(name + " " + secondName + " is not present");
         }
     }
@@ -59,6 +57,10 @@ public class ClassRoom {
         for(Student student : students){
             System.out.println(student.getName() + " " + student.getSecondName());
         }
+    }
+
+    public List<Student> getStudents() {
+        return new ArrayList<>(students);
     }
 
 }

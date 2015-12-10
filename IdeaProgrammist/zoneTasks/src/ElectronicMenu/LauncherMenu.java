@@ -6,5 +6,8 @@ package ElectronicMenu;
 public class LauncherMenu {
     public static void main(String[] args) {
 
+        Menu menu = new Menu();
+        menu.printMenu();
+
     }
 }
