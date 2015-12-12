@@ -13,12 +13,19 @@ public class SimpleLinkedList {
         size = 0;
     }
 
-    private class Note {
+    private class Node {
         Object object;
-        Note note;
+        Node ref;
     }
 
     public void addFirst(Object o) {
+        Node node = new Node();
+        node.object = o;
+        if(root != null) {
+            node.ref = root;
+        }
+        root = node;
+        size++;
     }
     public void addLast(Object o) {
     }
