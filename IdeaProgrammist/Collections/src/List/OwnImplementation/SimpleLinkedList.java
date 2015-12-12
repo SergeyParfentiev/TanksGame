@@ -8,6 +8,15 @@ public class SimpleLinkedList {
     private Node root;
     private int size;
 
+    public SimpleLinkedList() {
+        size = 0;
+    }
+
+    private class Note {
+        Object object;
+        Note note;
+    }
+
     public void addFirst(Object o) {
     }
     public void addLast(Object o) {
