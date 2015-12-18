@@ -23,6 +23,8 @@ public class SimpleLinkedList implements Iterable{
         public boolean hasNext() {
             if(node != null && node.ref != null) {
                 return true;
+            }else if(once != null) {
+                return true;
             }else {
                 return false;
             }
