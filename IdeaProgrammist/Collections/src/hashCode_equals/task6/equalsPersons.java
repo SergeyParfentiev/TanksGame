@@ -6,16 +6,16 @@ package hashCode_equals.task6;
 public class equalsPersons {
     public static void main(String[] args) {
 
-        Person p1 = new Person("Ivan",20,20000);
-        Person p2 = new Person("Petr",30,30000);
+        Person person1 = new Person("JACKIE ", 2, 10);
+        Person person2 = new Person("CHAN", 8, 0);
 
 
-        System.out.println(p1.equals(p2) + "\n");
+        System.out.println(person1.equals(person2) + "\n");
 
-        p2=p1;
+        person1 = person2;
 
 
-        System.out.println(p1.equals(p2));
+        System.out.println(person1.equals(person2));
 
     }
 }

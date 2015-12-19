@@ -7,7 +7,13 @@ public class Person {
 
     private String name;
     private int age;
-    private int salary;
+    private long salary;
+
+    public Person (String name,int age,long salary){
+        this.name=name;
+        this.age=age;
+        this.salary = salary;
+    }
 
     public String getName() {
         return name;
@@ -25,11 +31,11 @@ public class Person {
         this.age = age;
     }
 
-    public int getSalary() {
+    public long getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(long salary) {
         this.salary = salary;
     }
 
@@ -50,7 +56,7 @@ public class Person {
     public int hashCode() {
         int result = getName() != null ? getName().hashCode() : 0;
         result = 31 * result + getAge();
-        result = 31 * result + getSalary();
+        result = 31 * result + (int) (getSalary() ^ (getSalary() >>> 32));
         return result;
     }
 }
