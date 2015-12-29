@@ -14,6 +14,12 @@ public class Window {
         JFrame jFrame = new JFrame("Serezhka - molodets");
         jFrame.setBounds(300, 100, 800, 600);
 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame.pack();
+        jFrame.pack();
+
         frame.setVisible(true);
         jFrame.setVisible(true);
 
