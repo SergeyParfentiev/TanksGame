@@ -52,7 +52,6 @@ public class BirdShopUi {
         panel.add(lcount);
         panel.add(tcount);
         panel.add(buy);
-        panel.setOpaque(true);
 
         return panel;
     }
