@@ -42,11 +42,14 @@ public class TransparentWater extends JPanel{
         super.paintComponent(k);
        Graphics2D g = (Graphics2D)k;
         g.setColor(Color.GREEN);
-
         g.fillRect(150, 100, 100, 100);
-        g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.5f));
 
+        g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.5f));
         g.drawImage(iWater, 100, 100, null);
+
+        g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER));
+        g.setColor(Color.GREEN);
+        g.fillRect(250, 200, 100, 100);
 
     }
 }
