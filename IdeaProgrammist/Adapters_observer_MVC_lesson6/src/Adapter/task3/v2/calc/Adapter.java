@@ -13,7 +13,11 @@ public class Adapter implements Calculator{
 
     @Override
     public int multiply(int a, int b) {
-        return arifmetika.multiply(a, b);
+        int multiply = a;
+        for(int i = 0; i < b; i++) {
+           multiply = arifmetika.summa(new int[]{a, a});
+        }
+        return multiply;
     }
 
     @Override

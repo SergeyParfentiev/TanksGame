@@ -7,6 +7,10 @@ public class Calculator {
 	}
 
 	public int multiply(int a, int b) {
-		return Arifmetika.multiply(a, b);
+        int multiply = a;
+        for(int i = 0; i < b; i++) {
+            multiply = Arifmetika.summa(new int[]{a, a});
+        }
+        return multiply;
 	}
 }
