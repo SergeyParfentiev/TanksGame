@@ -1,4 +1,4 @@
-package Generics;
+package Generics.task6;
 
 /**
  * Created by Byblik272 on 14/1/2016.

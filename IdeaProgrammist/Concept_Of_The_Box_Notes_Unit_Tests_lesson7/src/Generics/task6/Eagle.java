@@ -1,9 +1,9 @@
-package Generics;
+package Generics.task6;
 
 /**
  * Created by Byblik272 on 14/1/2016.
  */
-public class Eagle {
+public class Eagle extends Bird{
 
     private int age;
 
