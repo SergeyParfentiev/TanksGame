@@ -14,7 +14,7 @@ public class Box_Launcher {
         boxI.remove(3);
         boxI.remove(2);
 
-        System.out.println(boxI.getItem());
+        System.out.println(boxI.getItems());
 
         Box<String> boxS = new Box<>();
 
@@ -23,6 +23,13 @@ public class Box_Launcher {
         boxS.remove("2");
         boxS.remove("Smile");
 
-        System.out.println(boxS.getItem());
+        System.out.println(boxS.getItems());
+
+        Box<Dog> dogBox = new Box<>();
+        Dog dog = new Dog();
+        dog.setAge(4);
+
+        dogBox.setItem(dog);
+        System.out.println(dogBox.getItem(11).getAge());
     }
 }
