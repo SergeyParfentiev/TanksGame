@@ -7,9 +7,6 @@ public class Eagle extends Bird{
 
     private int age;
 
-    public Eagle() {
-    }
-
     public int getAge() {
         return age;
     }
