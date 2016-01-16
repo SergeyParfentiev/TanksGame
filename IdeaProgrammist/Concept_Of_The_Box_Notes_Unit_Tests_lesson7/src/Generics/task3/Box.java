@@ -12,7 +12,6 @@ public class Box<T> {
 
 
     public List<T> getItems() {
-
         return list;
     }
 

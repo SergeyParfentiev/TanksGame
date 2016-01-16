@@ -1,6 +1,5 @@
 package Generics.task6;
 
-import javax.xml.crypto.Data;
 
 /**
  * Created by Byblik272 on 14/1/2016.
