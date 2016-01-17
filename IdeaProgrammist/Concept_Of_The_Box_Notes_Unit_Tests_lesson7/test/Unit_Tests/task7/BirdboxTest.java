@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
 public class BirdBoxTest {
 
     BirdBox<Bird> box;
+
     Duck duck1;
     Duck duck2;
     Eagle eagle1;
@@ -20,24 +21,26 @@ public class BirdBoxTest {
     @Before
     public void init() {
         box = new BirdBox<>();
+
         duck1 = new Duck();
         duck2 = new Duck();
         eagle1 = new Eagle();
+
         duck1.setPrice(500.0);
         duck2.setPrice(600);
         eagle1.setPrice(1100);
     }
 
-    @Test
+       @Test
     public void noDiscountTest() {
-        assertEquals(box.buyBird(duck1), "" + 500.0);
+        assertEquals(box.buyBird(duck1) + "", "" + 500.0);
     }
     @Test
     public void tenPesentDiscountTest() {
-        assertEquals(box.buyBird(eagle1), "990.0");
+        assertEquals(box.buyBird(eagle1), 990.0, 0);
     }
     @Test
     public void fivePesentDiscountTest() {
-        assertEquals(box.buyBird(duck2), "570.0");
+        assertEquals(box.buyBird(duck2) + "", "57" + .0);
     }
 }
