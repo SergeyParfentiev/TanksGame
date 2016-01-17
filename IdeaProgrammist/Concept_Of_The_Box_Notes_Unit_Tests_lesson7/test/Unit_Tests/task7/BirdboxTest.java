@@ -43,4 +43,5 @@ public class BirdBoxTest {
     public void fivePesentDiscountTest() {
         assertEquals(box.buyBird(duck2) + "", "57" + .0);
     }
+
 }

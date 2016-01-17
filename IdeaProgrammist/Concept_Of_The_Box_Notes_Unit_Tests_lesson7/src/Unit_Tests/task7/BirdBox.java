@@ -60,7 +60,7 @@ public class BirdBox<T extends Bird> {
         });
     }
 
-    public String buyBird(T bird) {
+    public double buyBird(T bird) {
         double purchasePrice;
         if(bird.getPrice() > 1000) {
             purchasePrice = bird.getPrice() - bird.getPrice() / 10;
@@ -72,6 +72,6 @@ public class BirdBox<T extends Bird> {
             purchasePrice = bird.getPrice();
             System.out.println(purchasePrice);
         }
-        return "" + purchasePrice;
+        return purchasePrice;
     }
 }
