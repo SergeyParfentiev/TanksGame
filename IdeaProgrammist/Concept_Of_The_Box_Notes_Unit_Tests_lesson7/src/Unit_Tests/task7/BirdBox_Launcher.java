@@ -1,4 +1,4 @@
-package Unit_Tests.task5;
+package Unit_Tests.task7;
 
 /**
  * Created by Byblik272 on 14/1/2016.
