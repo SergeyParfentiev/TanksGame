@@ -10,7 +10,6 @@ public class ApplicationManager {
     public void checkPresentAnnotation(Class clazz) {
 
         Annotation an = clazz.getAnnotation(Service.class);
-        Class c = clazz.getClass();
         if(clazz.isAnnotationPresent(Service.class)) {
             System.out.println("Annotation Sevice is present");
         } else {
