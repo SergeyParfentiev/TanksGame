@@ -38,7 +38,7 @@ public class FillTest {
         list = new ArrayList<>();
         list.add("Options");
         list.add("not");
-        list.add("correct");
+        list.add("correct!");
         bird = fill.initClass(Bird.class, list);
     }
 
