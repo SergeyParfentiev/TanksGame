@@ -34,11 +34,20 @@ public class FillTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void initClassOptionsTest() throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+    public void initClassWrongOptionsTest() throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         list = new ArrayList<>();
         list.add("Options");
         list.add("not");
         list.add("correct");
+        bird = fill.initClass(Bird.class, list);
+    }
+
+    @Test
+    public void initClassCorrectOptionsTest() throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        list = new ArrayList<>();
+        list.add("Ducky");
+        list.add(10);
+        list.add(50);
         bird = fill.initClass(Bird.class, list);
     }
 }
