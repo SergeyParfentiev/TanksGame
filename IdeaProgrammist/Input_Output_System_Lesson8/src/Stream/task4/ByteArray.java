@@ -18,11 +18,8 @@ public class ByteArray {
 
     private static void printStreamData(ByteArrayInputStream stream) {
         int b;
-//        while ((b = stream.read()) != -1) {
-//            System.out.println(b);
-//        }
-        while(stream.available() > 0){
-            System.out.println(stream.read());
+        while ((b = stream.read()) != -1) {
+            System.out.println(b);
         }
     }
 }
