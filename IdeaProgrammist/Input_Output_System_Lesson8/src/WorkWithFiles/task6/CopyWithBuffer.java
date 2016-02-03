@@ -6,44 +6,40 @@ import java.io.*;
  * Created by Byblik272 on 2/2/2016.
  */
 public class CopyWithBuffer {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         File firsFile = new File("/WorkWithFiles/task6.txt");
-        String text = "I use text with the aid of Buffer!";
-        CopyWithBuffer.write(String.valueOf(firsFile), text);
+        String text = "I use text with the aid of Buffer!\r\nLoL\r\nNextLine";
+        CopyWithBuffer.write(firsFile, text);
 
         CopyWithBuffer.copyFile(firsFile);
 
     }
 
-    public static void copyFile(File file) throws IOException{
-        StringBuilder sb = new StringBuilder();
-
-                FileInputStream fis = new FileInputStream(file);
-                BufferedInputStream bis = new BufferedInputStream(fis, 256);
-
-            int i;
-            while((i = bis.read()) != -1) {
-                sb.append((char) i);
-            }
-
+    public static void copyFile(File file) {
         String copiedFileName = "/WorkWithFiles/task6Copy.txt";
         File secondFile = new File(copiedFileName);
 
-        CopyWithBuffer.write(String.valueOf(secondFile), sb.toString());
+        StringBuilder builder = new StringBuilder();
+        try(BufferedReader br = new BufferedReader(new FileReader(file), 256)) {
+            String s;
+            while ((s = br.readLine()) != null) {
+                builder.append(s);
+                builder.append("\r\n");
+            }
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
 
+        CopyWithBuffer.write(secondFile, builder.toString());
     }
 
-    public static void write(String fileName, String data) {
+    public static void write(File file, String data) {
 
-        try (
-                FileOutputStream fos = new FileOutputStream(fileName);
-                BufferedOutputStream bos = new BufferedOutputStream(fos, 256)
-        ) {
-
-            bos.write(data.getBytes());
-            bos.close();
-            fos.close();
+        String fileName = String.valueOf(file);
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(fileName), 256))
+        {
+            bw.write(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
