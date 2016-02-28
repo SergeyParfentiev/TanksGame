@@ -15,7 +15,7 @@ public class NiceWinterDayDemo {
 
         final Random random = new Random();
 
-        for(int i = 1; i < 11; i++) {
+        for(int i = 1; i < 110; i++) {
 
             final Skater skater = new Skater("Skater " + i);
 
