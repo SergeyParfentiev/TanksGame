@@ -20,12 +20,12 @@ public class NiceWinterDayJoinDemo {
 
         final Random random = new Random();
 
-        ExecutorService executor = Executors.newFixedThreadPool(5);
+        ExecutorService executor = Executors.newFixedThreadPool(8);
 
         List<Future> futures = new ArrayList<>();
 
         try {
-            for (int i = 1; i < 11; i++) {
+            for (int i = 1; i < 110; i++) {
 
                 final Skater skater = new Skater("Skater " + i);
 

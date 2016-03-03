@@ -10,37 +10,22 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class SchoolSkatingRink implements SkatingRink {
 
-    private volatile int skatesCount = 5;
-
     private volatile int number = 1;
 
     final private int minCount = 0;
 
     Lock lock;
 
-    private List listSkaters;
     private List listSkates;
 
     public SchoolSkatingRink() {
-        skatesCount++;
-        listSkaters = new ArrayList();
         listSkates = new ArrayList();
         lock = new ReentrantLock();
     }
 
     @Override
     public void getSkates(Skates skates, Skater skater) {
-        skatesCount--;
-        if(skatesCount < minCount) {
-            synchronized (skater) {
-                try {
-                    listSkaters.add(skater);
-                    skater.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
+
         lock.lock();
         if(listSkates.isEmpty()) {
             skates.number = number;
@@ -56,18 +41,9 @@ public class SchoolSkatingRink implements SkatingRink {
 
     @Override
     public void returnSkates(Skates skates, Skater skater) {
-        skatesCount++;
 
         System.out.println(skater.getName() + " return skates №" + skates.number);
 
         listSkates.add(skates.number);
-
-        if(listSkaters.size() != minCount) {
-
-            synchronized (listSkaters.get(minCount)) {
-                listSkaters.get(minCount).notify();
-                listSkaters.remove(minCount);
-            }
-        }
     }
 }
