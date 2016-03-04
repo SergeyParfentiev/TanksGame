@@ -8,7 +8,7 @@ import HomeTask.task2.action.ActionField;
 public class Launcher {
     public static void main(String[] args) throws Exception {
 
-        ActionField bf = new ActionField();
-        bf.runTheGame();
+        new ActionField();
+//        bf.runTheGame();
     }
 }

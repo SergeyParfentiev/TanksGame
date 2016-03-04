@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActionField //extends JPanel
+public class ActionField// extends JPanel
 {
 
 //    private static final long serialVersionUID = 1L;
@@ -22,7 +22,7 @@ public class ActionField //extends JPanel
     private Tank defender;
     private Tank aggressor;
     private Bullet bullet;
-    boolean play = false;
+    boolean play = true;
     private JPanel jTankChoose;
     private JFrame frame;
     private int tankIdx = 0;
@@ -38,9 +38,9 @@ public class ActionField //extends JPanel
     private List recordList;
 
     public void runTheGame() throws Exception {
-        while (true) {
-            Thread.currentThread().sleep(1000);
-//               System.out.println();
+//        while (true) {
+//            Thread.currentThread().sleep(1000);
+               System.out.println(1);
             while (play) {
                 if (!aggressor.isDestroyed() && !defender.isDestroyed() && !eagle.isDestroyed()) {
                     aggressor.destroyOpponent(defender, battleField);
@@ -57,11 +57,8 @@ public class ActionField //extends JPanel
                     play = false;
                 }
             }
-            if(choose) {
-                closeOrRepeat();
-                choose = false;
-            }
-            if(replayGame) {
+
+        if(replayGame) {
                 for(int i = 0; i < recordList.size();) {
                     aggressor.turn((Direction) recordList.get(i++));
                     processAction((Action) recordList.get(i++), aggressor);
@@ -75,7 +72,11 @@ public class ActionField //extends JPanel
                 replayGame = false;
                 choose = true;
             }
+        if(choose) {
+            closeOrRepeat();
+            choose = false;
         }
+//        }
     }
 
     private void processAction(Action a, Tank t) throws Exception {
@@ -314,6 +315,16 @@ public class ActionField //extends JPanel
                 createRecord();
                 drawBF();
                 replayGame = true;
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            runTheGame();
+                        } catch (Exception e1) {
+                            e1.printStackTrace();
+                        }
+                    }
+                }).start();
             }
         });
         goOut.addActionListener(new ActionListener() {
@@ -371,8 +382,18 @@ private JPanel gameOptions() {
         public void actionPerformed(ActionEvent e) {
             selectTank();
             drawBF();
-            play = true;
             recordActions = new RecordTankActions();
+            play = true;
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        runTheGame();
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                }
+            }).start();
         }
     });
 
@@ -422,6 +443,7 @@ private JPanel gameOptions() {
         frame.repaint();
 
     }
+
     private class RBListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
