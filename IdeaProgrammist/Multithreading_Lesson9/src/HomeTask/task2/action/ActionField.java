@@ -38,9 +38,7 @@ public class ActionField// extends JPanel
     private List recordList;
 
     public void runTheGame() throws Exception {
-//        while (true) {
-//            Thread.currentThread().sleep(1000);
-               System.out.println(1);
+
             while (play) {
                 if (!aggressor.isDestroyed() && !defender.isDestroyed() && !eagle.isDestroyed()) {
                     aggressor.destroyOpponent(defender, battleField);
@@ -76,7 +74,6 @@ public class ActionField// extends JPanel
             closeOrRepeat();
             choose = false;
         }
-//        }
     }
 
     private void processAction(Action a, Tank t) throws Exception {
