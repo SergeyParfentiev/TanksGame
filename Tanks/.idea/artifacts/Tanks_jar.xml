@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tanks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tanks_jar</output-path>
+    <root id="archive" name="Tanks.jar">
+      <element id="module-output" name="Tanks" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDK/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDK/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDK/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDK/kotlin-runtime-sources.jar" path-in-jar="/" />
+      <element id="library" level="project" name="JDK" />
+    </root>
+  </artifact>
+</component>
