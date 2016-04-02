@@ -489,17 +489,13 @@ public class ActionField {
         gameOver.setLayout(new GridBagLayout());
         JLabel resultGame;
         if(defender.isDestroyed() || eagle.isDestroyed()) {
-            resultGame = new JLabel("You Lose!");
+            resultGame = new JLabel("You Lose!                    ");
         } else {
-            resultGame = new JLabel("You Win!");
+            resultGame = new JLabel("You Win!                    ");
         }
         JButton goAgain = new JButton("Play Again");
         goAgain.setForeground(Color.BLACK);
         goAgain.setBackground(new Color(100, 255, 100));
-
-        JButton record = new JButton("Show the game record");
-        record.setForeground(Color.BLACK);
-        record.setBackground(new Color(100, 255, 100));
 
         final JButton goOut = new JButton("Exit");
         goOut.setForeground(Color.BLACK);

@@ -17,6 +17,7 @@ public class MapsOfBattleField {
         mapLis.add(map3);
         mapLis.add(map4);
     }
+
     private String[][] map1 = {
             {"V", "V", "R", "V", "B", "W", "W", "V", "V"},
             {"V", "B", "W", "W", "V", "V", "R", "V", "V"},
