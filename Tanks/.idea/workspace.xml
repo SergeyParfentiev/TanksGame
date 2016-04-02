@@ -8,123 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3720e0e-8e52-441a-a21a-9db73830559a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/Collections.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Eagle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Action/ActionField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/AbstractObjectOnField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/BattleField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/Brick.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/Eagle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/Rock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/Space.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/ObjectsOnField/Water.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Run/Launcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/AbstractTank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/BT7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Bullet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Destroyable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Direction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Drawable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/T34.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Tank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task2/Tanks/Tiger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/panels_and_pictures/t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Space.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/BT7_DOWN.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/BT7_DOWN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/BT7_LEFT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/BT7_LEFT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/BT7_RIGHT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/BT7_RIGHT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/BT7_UP.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/BT7_UP.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_DOWN.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_DOWN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_LEFT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_LEFT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_RIGHT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_RIGHT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_UP.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Bullet_UP.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/T34_DOWN.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/T34_DOWN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/T34_LEFT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/T34_LEFT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/T34_RIGHT.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/T34_RIGHT.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/T34_Up.png" afterPath="$PROJECT_DIR$/../IdeaProgrammist/T34_Up.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/Adapters_observer_MVC_lesson6.iml" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/Adapters_observer_MVC_lesson6.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/AbstractObjectOnField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/AbstractObjectOnField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/BattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/T34.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/T34.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/Tank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/Tank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/Tiger.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Check/Tiger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Tanks/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Tanks/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Tanks/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/HomeTask/task7/TankGame/Tanks/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task2/BirdShopUi_Click_Button.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task2/BirdShopUi_Click_Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task2/Launcher_BirdShopUi_Click_Button.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task2/Launcher_BirdShopUi_Click_Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Tanks/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Tanks/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Tanks/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task5/TankGame/Tanks/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Tanks/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Tanks/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Tanks/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Magazines_and_Tanks/task6/TankGame/Tanks/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Model_View_Controller/task4/BirdShopUi_Click_Button.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Adapters_observer_MVC_lesson6/src/Model_View_Controller/task4/BirdShopUi_Click_Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/Task8/Launcher_SimpleArrayList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/Task8/Launcher_SimpleArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/Task8/SimpleArrayList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/Task8/SimpleArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/task10/TankGame/Action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/task10/TankGame/Action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/task10/TankGame/ObjectsOnField/Space.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/HomeTask/task10/TankGame/ObjectsOnField/Space.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task11/LauncherSllIterator.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task11/LauncherSllIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task11/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task11/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task13/LauncherSllIterator.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task13/LauncherSllIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task13/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task13/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task3/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task3/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task7/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task7/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task9/SimpleLinkedList.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/List/OwnImplementation_Task9/SimpleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/hashCode_equals/task8/equalsPerson_withAdress.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Collections/src/hashCode_equals/task8/equalsPerson_withAdress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task2/Family_Launcher.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task2/Family_Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task4/Bird.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task4/Bird.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task4/Fill_Launcher.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task4/Fill_Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task7/Service.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Concept_Of_The_Box_Notes_Unit_Tests_lesson7/src/Reflection/task7/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task3/objectsOnField/BattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/HomeTask/task3/objectsOnField/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/WorkWithFiles/task1/TreeOfCatalogues.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/WorkWithFiles/task1/TreeOfCatalogues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/WorkWithFiles/task3/CopyFile.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Input_Output_System_Lesson8/src/WorkWithFiles/task3/CopyFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Graphics_2D/task8/Window.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Graphics_2D/task8/Window.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task4/ClickCircle.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task4/ClickCircle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/ObjectsOnField/BattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/ObjectsOnField/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/T34.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/HomeTask/task7/TankGame/Tanks/T34.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Layout_and_Scene/task1/BirdShopUi.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Layout_and_Scene/task1/BirdShopUi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Layout_and_Scene/task3/BirdShopUi_Layout.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/Layout_and_Scene/task3/BirdShopUi_Layout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/panels_and_pictures/task5/DrawTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Interface_Date_Time_lesson5/src/panels_and_pictures/task5/DrawTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task2/action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task2/action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/action/ActionField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/action/ActionField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/demo/Launcher.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/demo/Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/gameRecord/FileOfRecord.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/gameRecord/FileOfRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/gameRecord/RecordTankActions.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/gameRecord/RecordTankActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/AbstractObjectOnField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/AbstractObjectOnField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/BattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Brick.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Brick.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Eagle.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Eagle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/MapsOfBattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/MapsOfBattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Rock.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Rock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Void.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Void.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Water.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/objectsOnField/Water.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/AbstractTank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/AbstractTank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Action.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/BT7.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/BT7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Bullet.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Bullet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Direction.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Direction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/T34.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/T34.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Tank.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Tank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Tiger.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/HomeTask/task3/tanks/Tiger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/Barrier.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/Barrier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/Car.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/CrossTheBarrier.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task2/CrossTheBarrier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task3/CrossTheBarrier.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Synchronization/task3/CrossTheBarrier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Thread/task3/Ball.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/Multithreading_Lesson9/src/Thread/task3/Ball.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/ObjectsOnField/BattleField.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/ObjectsOnField/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/ObjectsOnField/Water.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/ObjectsOnField/Water.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/Bullet.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/Bullet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/Destroyable.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/Destroyable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/T34.java" afterPath="$PROJECT_DIR$/../IdeaProgrammist/src/TankGame/Tanks/T34.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/ActionField.java" afterPath="$PROJECT_DIR$/src/action/ActionField.java" />
     </list>
     <ignored path="Tanks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,7 +32,7 @@
       <file leaf-file-name="ActionField.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/action/ActionField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8553371">
+            <state vertical-scroll-proportion="-1.301282">
               <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
@@ -623,7 +506,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459600443040</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rejected commit: Default">
+      <created>1459604858868</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1459604858868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,7 +521,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -909,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/ActionField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8553371">
+        <state vertical-scroll-proportion="-1.301282">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
